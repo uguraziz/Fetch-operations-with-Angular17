@@ -1,7 +1,7 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { MovieService } from '../services/movie.service';
-import { MovieDetails } from '../interfaces/movie-details';
-import { environment } from '../../environments/environment';
+import { MovieService } from '../../services/movie.service';
+import { MovieDetails } from '../../interfaces/movie-details';
+import { environment } from '../../../environments/environment';
 
 const imgUrl = environment.imgUrl;
 
